@@ -4,6 +4,7 @@
 <head>
     <title>Ugly Website</title>
     <link rel="icon" href="favicon.png">
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 
 
@@ -33,15 +34,17 @@
     </a>
 
     <pre> 
-        class HelloWorld 
-        { 
-            // Your program begins with a call to main(). 
-            // Prints "Hello, World" to the terminal window. 
-            public static void main(String args[]) 
+        <code>
+            class HelloWorld 
             { 
-                System.out.println("Hello, World"); 
+                // Your program begins with a call to main(). 
+                // Prints "Hello, World" to the terminal window. 
+                public static void main(String args[]) 
+                { 
+                    System.out.println("Hello, World"); 
+                } 
             } 
-        } 
+        </code>
     </pre>
 
     <table>
@@ -56,8 +59,8 @@
         </tr>
     </table>
     <ul>
-        <li>block elements take up a whole line on the page, like the p tag, header tags, and table tag</li>
-        <li>the default margin is 8px</li>
+        <li class="unique">block elements take up a whole line on the page, like the p tag, header tags, and table tag</li>
+        <li>the default margin is 8px <ol><li>sublist!</li></ol></li>
         <li>the default font size is 2em and the weight is bold</li>
         <li>our page takes 80ms to load</li>
         <li>we can view them in the network tab of the inspector tool</li>

@@ -1,0 +1,47 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(236, 176, 176);
+    font-family: Arial;
+}
+em{
+    color: greenyellow;
+}
+pre{
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: black;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:70px;
+    align-content: center;
+}
+p, li{
+    color: rgb(40, 4, 82);
+}
+ul{
+    list-style-type: lower-greek;
+}
+li{
+    padding: 10px;
+}
+img{
+    border-radius: 8pt;
+}
+img:hover{
+    opacity: .5;
+}
+table{
+    border-style: solid;
+    border-color: black;
+    padding: 1px;
+}
+.unique{
+    list-style-type: lower-roman;
+}
